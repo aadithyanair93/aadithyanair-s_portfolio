@@ -489,12 +489,15 @@ margin-left:490px;
   .col-lg-6 ul{ 
     width:-22px;
     list-style-type: none;
+    font-size:13px;
 
   }
   .col-lg-6-2 ul{
     width:-22px;
+    font-size:13px;
     list-style-type: none;
-    height: 10px;
+    height: 13px;
+    margin-top:2px;
 
   }
   .col-lg-6 ul img{
