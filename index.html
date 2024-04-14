@@ -135,18 +135,20 @@
           while the identity of the user will not be disclosed. </span>
           <li>Weather Glance</li>
         <span>A Web Application which shows real-time weather of a particular location.Build it using HTML,CSS & Javscript. </span>
-           <li>To Do List</li>
-        <span>A Full stack Web Application used for storing to do tasks efficiently. </span>
-          <li>Restaurant Management System</li>
-        <span>A Full stack Web Application Supported with admin panel to manage all things in a restaurant. </span>
-      </ul>   
       </ul>   
 
     </div>
-<!--    <div class="contact">
-    <h2>Contact</h2> -->
-
-   </div>
+    <div class="contact-form">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/mayrlkyl"
+      method="POST" onsubmit="valid()">
+          <input type="text" id="name" name="name" placeholder="Your Name" >
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+          <input type="text" id="subject" name="subject" placeholder="Subject" required>
+          <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+          <input type="submit" value="submit">
+      </form>
+  </div>
 <footer>
         <div class="items"><ul>
           <li><a href="#firstsection">Home</a></li>
@@ -174,6 +176,7 @@
       
     </script>
     <script src="resp.js"></script>
+    <script src="form.js"></script>
     
     
   </body>
