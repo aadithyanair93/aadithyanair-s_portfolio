@@ -365,16 +365,6 @@ margin-left:490px;
 .hamburger li{
     display:none;
 }
-/* body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-} */
 .contact-form {
   background-color: rgba(5, 5, 143, 0.836);
   border-radius: 8px;
@@ -413,10 +403,7 @@ margin-left:490px;
 input[type="submit"]:hover {
   background: linear-gradient(to right, #0056b3, #007bff);
 }
-
-
-
-   @media only screen and (max-width: 450px) {
+ @media only screen and (max-width: 450px) {
     body{
       background: url(hero-bg.png);
       background-size: cover;
